@@ -1,0 +1,11 @@
+name: Push Event Demo
+
+on:
+  push:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "A push happened!"
