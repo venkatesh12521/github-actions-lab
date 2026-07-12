@@ -16,3 +16,12 @@ jobs:
 
       - name: Print Current Directory
         run: pwd
+
+      - name: Print name
+        run: echo "Venkatesh"
+
+      - name: Display content
+        run: ls -ls
+
+      - name: Git version
+        run: Git version
